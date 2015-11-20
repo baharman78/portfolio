@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Project Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- custom elements -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  </head>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <div class="container-fluid global_default_styles">
+    <header class="row text-uppercase">
+      <div id="header_logo" class="col-xs-4 col-sm-3 col-md-2 col-lg-2"><img id="udacity_logo_img"
+        class="img-responsive udacity_logo_img"
+        src="images/udacity_logo.svg" alt="udacity logo"></div>
+      <div id="header_title" class="col-xs-8 col-sm-9 col-md-10 col-lg-10 text-right"><h1>Jane Doette</h1>
+      <h4>Front-End Ninja</h4></div>
+    </header>
+      <div class="row">
+        <section class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <!--Use different images based on the image width-->
+          <picture>
+            <source media="(max-width: 300px)" srcset="images/banner-300.jpg 1x, images/banner-300_2x.jpg 2x">
+            <source media="(min-width: 299px) and (max-width: 599px)" srcset="images/banner-600.jpg 1x, images/banner-600_2x.jpg 2x">
+            <source media="(min-width: 600px)" srcset="images/banner-1200.jpg 1x, images/banner-1200_2x.jpg 2x">
+            <img id="banner_img" class="img-responsive banner_border banner_padding" src="images/banner-1200.jpg" alt="banner image">
+          </picture>
+        </section>
+      </div>
+      <div class="row">
+        <div id="Features" class="col-md-12 text-left"><h2>Featured Work</h2>
+        </div>
+      </div>
+      <div class="row">
+        <section class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+          <picture>
+            <!--Use different images based on the image width-->
+            <source media="(max-width: 299px)" srcset="images/project_applify-300.jpg 1x, images/project_applify-300_2x.jpg 2x">
+            <source media="(min-width: 300px)" srcset="images/project_applify-750.jpg 1x, images/project_applify-750_2x.jpg 2x">
+            <img class="img-responsive" src="images/project_applify-750.jpg" alt="applify image">
+          </picture>
+          <div id="Applify_Descriptor" class="text-uppercase"><h3>Applify</h3></div>
+          <a href="http://github.com/udacity/Appify">http://github.com/udacity/Appify</a>
+        </section>
+        <section class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+          <picture>
+            <!--Use different images based on the image width-->
+            <source media="(max-width: 299px)" srcset="images/project_sunflower-300.jpg 1x, images/project_sunflower-300_2x.jpg 2x">
+            <source media="(min-width: 300px)" srcset="images/project_sunflower-750.jpg 1x, images/project_sunflower-750_2x.jpg 2x">
+            <img class="img-responsive" src="images/project_sunflower-750.jpg" alt="sunflower image">
+          </picture>
+          <div id="Sunflower_Descriptor" class="text-uppercase"><h3>Sunflower</h3></div>
+          <a href="http://github.com/udacity/Sunflower">http://github.com/udacity/Sunflower</a>
+        </section>
+        <section class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+          <picture>
+            <!--Use different images based on the image width-->
+            <source media="(max-width: 299px)" srcset="images/project_bokeh-300.jpg 1x, images/project_bokeh-300_2x.jpg 2x">
+            <source media="(min-width: 300px)" srcset="images/project_bokeh-750.jpg 1x, images/project_bokeh-750_2x.jpg 2x">
+            <img class="img-responsive" src="images/project_bokeh-750.jpg" alt="bokeh image">
+          </picture>
+          <div id="Bokeh_Descriptor" class="text-uppercase"><h3>Bokeh</h3></div>
+          <a href="http://github.com/udacity/Bokeh">http://github.com/udacity/Bokeh</a>
+        </section>
+      </div>
+  </div>
+</html>

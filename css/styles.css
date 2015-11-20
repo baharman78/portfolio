@@ -1,0 +1,41 @@
+/*
+set default text color and text family globally
+*/
+.global_default_styles{
+  color: #747704;
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+link text colors
+*/
+a:link{
+  color: #747704;
+}
+a:visited{
+  color: #747704;
+}
+a:hover{
+  color: #747704;
+}
+a:active{
+  color: #747704;
+}
+
+/*
+create border above banner image
+*/
+
+.banner_border{
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #BCBBBB;
+}
+
+/*
+create padding above banner image
+*/
+
+.banner_padding{
+  padding-top: 25px;
+}
