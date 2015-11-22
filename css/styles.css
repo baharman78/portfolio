@@ -6,15 +6,17 @@ set default text color and text family globally
   font-family: "Lato", sans-serif;
 }
 
+/* Individual styles for each row */
+
 .container_row_styles{
-     margin-left: auto;
-     margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*
 link text colors
 */
-a:link{
+/*a:link{
   color: #747704;
 }
 a:visited{
@@ -25,7 +27,7 @@ a:hover{
 }
 a:active{
   color: #747704;
-}
+}*/
 
 /*
 create border above banner image
